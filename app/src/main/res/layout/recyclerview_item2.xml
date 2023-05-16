@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/relativlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/rasm1"
+                android:id="@+id/imageview2"
+                android:scaleType="centerCrop"
+                android:layout_width="80dp"
+                android:layout_height="80dp"></ImageView>
+            <TextView
+                android:id="@+id/textview2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_margin="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/imageview2"
+                android:text="Users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+            <ImageView
+                android:visibility="invisible"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/imageviewcheck2"
+                android:src="@drawable/baseline_check_circle_24"
+                android:layout_alignParentEnd="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"></ImageView>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
